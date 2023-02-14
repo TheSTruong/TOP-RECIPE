@@ -1,0 +1,61 @@
+@font-face {
+    font-family: Norse;
+    src: url("./font/Norsebold.otf") format("opentype");
+}
+
+body {
+    margin: 0;
+}
+
+html {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #cc9900 0%, #996633 100%);
+}
+
+h1 {
+    padding-top: 1.5%;
+    text-align: center;
+    font-size: 6.5rem;
+    font-family: 'Norse';
+    color: #ffcf4d;
+    margin: 0;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.underline {
+    width: 45%;
+    filter: invert(100%);
+}
+
+.food {
+    padding: 1px;
+    background-color: aliceblue;
+    box-shadow: 0 0 25px 8px;
+    border-radius: 30px;
+    border: 3px solid #996633;
+}
+
+.OdinProjectDiv {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: wheat;
+    font-size: 1rem;
+    border-radius: 25px;
+    border: 3px dashed #ffffff;
+    width: 25%;
+    margin-top: 100px;
+
+}
+
+.OdinProjectIMG {
+    width: 80%;
+    height: 80%;
+    margin-bottom: 0;
+}
